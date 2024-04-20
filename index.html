@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <form autocomplete="off">
+            <div class="top_bar">
+                <ul>
+                    <li><p id="show"></p></li>
+                    <li><p>To celcius</hp></li>
+                </ul>
+            </div>
+            <h1>Temperature converter</h1>
+            <div class="conversitons-menu">
+                <ul>
+                    <li>
+                        <fieldset>
+                            <legend>Degrees</legend>
+                            <input id="input" type="text" autofocus autocomplete="false">
+                        </fieldset>
+                    </li>
+                    <li>
+                        <fieldset>
+                            <legend>Type</legend>
+                            <select name="type" id="choice">
+                                <option value="Fahrenheit">Fahrenheit</option>
+                                <option value="Kelvin">Kelvin</option>
+                            </select>
+                        </fieldset>
+                    </li>
+                </ul>
+            </div>
+            <div class="results">
+                <legend>Result</legend>
+                <p id="result"></p>
+            </div>
+            <button type="button" onclick="showResult()">Convert</button>
+        </form>
+    </section>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>

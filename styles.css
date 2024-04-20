@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    font-family: sans-serif;
+}
+
+section {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+form{
+    background-color: whitesmoke;
+    padding: 6px 16px 6px 16px;
+    border-radius: 12px;
+    width: 350px;
+    height: auto;
+    justify-content: center;
+}
+
+.top_bar p{
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(71, 71, 71);
+}
+
+h1 {
+    text-align: center;
+    font-size: 16px;
+    padding: 16px;
+    margin-top: 12px;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset legend, .results legend{
+    font-size: 14px;
+    color: gray;
+    margin-top: 12px;
+}
+
+fieldset input, select {
+    margin-top: 22px;
+}
+
+select {
+    border: none;
+    background: none;
+    font-size: 16px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 4px;
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    border-bottom: 1px solid lightgray;
+    outline: none;
+    outline-offset: none;
+    padding-bottom: 4px;
+    font-size: 16px;
+    fill: none;
+}
+
+.results {
+    margin-top: 22px;
+}
+
+.results p{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 4px;
+    margin-top: 22px;
+    height: 22px;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    position: relative;
+    display: block;
+    margin-top: 22px;
+    padding: 12px;
+    width: 320px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background: blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(46, 46, 119);
+} 
