@@ -9,7 +9,7 @@ function printTime(){
     show.innerHTML = hour+':'+min+':'+sec;
 }
 setInterval(printTime, 1)
-//function for time midification ends
+//function for time modification ends
 
 //function for mathematical conversions begins
 const STATUS = '°C';
