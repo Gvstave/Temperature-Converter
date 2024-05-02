@@ -38,5 +38,8 @@ function showResult(){
     else if(choice == 'Kelvin'){
         result.innerHTML = forKelv() + STATUS;
     }
+    else {
+        result.innerHTML ="Invalid input!";
+    }
 }
 
